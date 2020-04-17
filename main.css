@@ -6,7 +6,7 @@ img {
   display: block;
 }
 
-.card {
+.head {
   border: solid 1px lightblue;
   text-align: center;
 }
@@ -30,6 +30,14 @@ img {
 }
 
 .container {
-  box-shadow: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
   width: 30%;
+  box-shadow: 5px 10px;
+  margin-bottom: 20px;
+  border: solid 1px red;
 }
