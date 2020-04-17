@@ -1,0 +1,35 @@
+img {
+  width: 250px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.card {
+  border: solid 1px lightblue;
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.productspec {
+  font-weight: bold;
+}
+
+.quanity {
+  font-weight: bold;
+}
+
+.availbilty {
+  background-color: darkgrey;
+  color: yellow;
+}
+
+.container {
+  box-shadow: 5px 10px;
+  width: 30%;
+}
