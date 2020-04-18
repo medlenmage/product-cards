@@ -93,3 +93,8 @@ h4 {
   font-family: 'Bangers', cursive;
   letter-spacing: 1px;
 }
+
+body {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/41hO5s95XOL._AC_SL1121_.jpg") ;
+  background-size: cover;
+}
