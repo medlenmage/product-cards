@@ -1,0 +1,101 @@
+.deku {
+  width: 250px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  padding-top: 5px;
+}
+
+.soldout {
+  position: absolute;
+  top: 35px;
+  left: 75px;
+}
+
+.head {
+  border: solid 1px blue;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  color: #1976D2
+}
+
+.description {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  color: #1976D2;
+}
+
+.productspec {
+  font-weight: bold;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+}
+
+.quanity {
+  font-weight: bold;
+  padding-left: 10px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  color: #FF5722;
+}
+
+.availbilty {
+  background-color: darkgrey;
+  color: yellow;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 30%;
+  box-shadow: 5px 10px;
+  margin-bottom: 20px;
+  border: solid 1px #FF5722;
+}
+
+.sec2 {
+  padding-left: 5px;
+  color: #1976D2;
+}
+
+.sec3 {
+  padding-left: 5px;
+  color: #1976D2;
+}
+
+.size {
+  padding-left: 10px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  color: #FF5722;
+}
+
+.weight {
+  padding-left: 10px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  color: #FF5722;
+}
+
+h4 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+}
+
+body {
+  background-image: url("https://res.cloudinary.com/teepublic/image/private/s--V4imynba--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1571871182/production/designs/6444955_0.jpg");
+  background-size: cover;
+}
