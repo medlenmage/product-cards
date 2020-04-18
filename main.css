@@ -7,6 +7,7 @@
   position: relative;
   top: 0;
   bottom: 0;
+  padding-top: 5px;
 }
 
 .soldout {
@@ -16,7 +17,7 @@
 }
 
 .head {
-  border: solid 1px lightblue;
+  border: solid 1px blue;
   text-align: center;
   font-family: 'Bangers', cursive;
   letter-spacing: 1px;
@@ -62,7 +63,7 @@
   width: 30%;
   box-shadow: 5px 10px;
   margin-bottom: 20px;
-  border: solid 1px#FF5722;
+  border: solid 1px #FF5722;
 }
 
 .sec2 {
@@ -95,6 +96,6 @@ h4 {
 }
 
 body {
-  background-image: url("https://images-na.ssl-images-amazon.com/images/I/41hO5s95XOL._AC_SL1121_.jpg") ;
+  background-image: url("https://res.cloudinary.com/teepublic/image/private/s--V4imynba--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1571871182/production/designs/6444955_0.jpg");
   background-size: cover;
 }
