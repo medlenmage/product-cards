@@ -5,14 +5,13 @@
   margin-right: auto;
   display: block;
   position: relative;
-  top: 0;
-  bottom: 0;
 }
 
 .soldout {
   position: absolute;
-  top: 35px;
-  left: 75px;
+  z-index: auto;
+  top: 65px;
+  left: 0px;
 }
 
 .head {
@@ -98,4 +97,8 @@ h4 {
 body {
   background-image: url("https://images-na.ssl-images-amazon.com/images/I/41hO5s95XOL._AC_SL1121_.jpg") ;
   background-size: cover;
+}
+
+.sec1 {
+  position: relative;
 }
