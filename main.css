@@ -5,6 +5,9 @@
   margin-right: auto;
   display: block;
   position: relative;
+  top: 0;
+  bottom: 0;
+  padding-top: 5px;
 }
 
 .soldout {
@@ -15,7 +18,7 @@
 }
 
 .head {
-  border: solid 1px lightblue;
+  border: solid 1px blue;
   text-align: center;
   font-family: 'Bangers', cursive;
   letter-spacing: 1px;
